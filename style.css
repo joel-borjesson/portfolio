@@ -25,7 +25,7 @@ header {
     height: 50px;
     display: flex;
     justify-content: space-between;
-    margin: 0 auto;
+    margin: 50px auto 0px;
     align-items: center;
 }
 
@@ -57,6 +57,8 @@ h2 {
 
 .bios {
     text-align: center;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .bios div {
@@ -64,7 +66,8 @@ h2 {
     flex-wrap: wrap;
     justify-content: center;
     margin: 0 auto;
-    width: 320px;
+    width: 400px;
+    margin-top: 40px;
 }
 
 .bios > div {
