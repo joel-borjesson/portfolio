@@ -49,6 +49,7 @@ body {
 
 h2 {
     font-weight: bold;
+    margin-bottom: 0px;
 }
 
 #about {
@@ -56,9 +57,10 @@ h2 {
 }
 
 .bios {
-    text-align: center;
     display: flex;
     flex-wrap: wrap;
+    width: 80%;
+    margin-left: 5%;
 }
 
 .bios div {
@@ -66,14 +68,14 @@ h2 {
     flex-wrap: wrap;
     justify-content: center;
     margin: 0 auto;
-    width: 400px;
-    margin-top: 40px;
+    width: 350px;
 }
 
 .bios > div {
     border: solid black;
     border-radius: 10px;
     background-color: rgb(222 184 135 / 0.4);
+    margin-top: 20px;
 }
 
 .bioitem {
@@ -81,12 +83,19 @@ h2 {
     flex-wrap: wrap;
 }
 
+.bioitem ul {
+    text-align: left;
+    width: 100%;
+    columns: 2;
+    list-style-type: none;
+}
+
 footer {
     position: fixed;
     display: flex;
     left: 0px;
     bottom: 0px;
-    height: 30px;
+    height: 40px;
     width: 100%;
     background:#999;
     align-items: center;
