@@ -136,6 +136,17 @@ footer {
         );
     }
 
+    .night-hamburger {
+        background: linear-gradient(
+            to bottom, 
+            #3D0E61, #3D0E61 20%, 
+            black 20%, black 40%, 
+            #3D0E61 40%, #3D0E61 60%, 
+            black 60%, black 80%, 
+            #3D0E61 80%, #3D0E61 100%
+        ) !important;
+    }
+
     #hamburger-menu #sidebar-menu {
         visibility: hidden;
         position: relative;
