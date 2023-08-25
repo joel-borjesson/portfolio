@@ -100,10 +100,22 @@ footer {
     background:#999;
     align-items: center;
     justify-content: center;
+    color: black;
 }
 
 #hamburger-input {
     visibility: hidden;
+}
+
+.night-mode-bios {
+    border: solid rgb(45, 158, 94) !important;
+    background-color: rgba(48, 26, 119, 0.877) !important;
+    color: rgb(214, 214, 208);
+}
+
+.night-mode {
+    background-color: black;
+    color: white;
 }
 
 @media only screen and (max-width: 650px) {
