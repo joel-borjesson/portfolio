@@ -120,6 +120,10 @@ footer {
 }
 
 @media only screen and (max-width: 650px) {
+    _::-webkit-full-page-media, _:future, :root .safari_only {
+        padding-bottom: 65px; //resize 
+    }
+
     #hamburger-menu {
         width: 50px;
         height: 30px;
